@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Ingrese producto</h1><br>
+    <form action="/productos" method="post">
+        Nombre:<br>
+        <br><input type="text" name="title"><br>
+        <br>Precio:<br>
+        <br><input type="number" name="price"><br>
+        <br>URL de foto:<br>
+        <br><input type="text" name="thumbnail"><br>
+        <br><button type="submit">Enviar</button><br>
+    </form>
+    <br><a href="/productos"><input type="button" value="Ver"></a>
+    <hr>
+</body>
+</html>
